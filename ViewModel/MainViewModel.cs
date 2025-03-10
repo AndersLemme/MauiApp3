@@ -10,7 +10,7 @@ namespace MauiApp3.ViewModel;
 public class MainViewModel : INotifyPropertyChanged
 {
     //example..
-    string text;
+    string text = "";
     public string Text
     {
         get => text;
