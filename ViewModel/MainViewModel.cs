@@ -11,5 +11,6 @@ namespace MauiApp3.ViewModel;
 public partial class MainViewModel : ObservableObject
 {
     [ObservableProperty]
-    string text;
+    private string text = "";
+
 }
